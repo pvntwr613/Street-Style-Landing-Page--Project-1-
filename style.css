@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,800&family=Oswald:wght@200;700&family=Poppins:ital,wght@0,400;0,500;1,600&display=swap');
+
+body{
+    background-color: #f4eeee;
+    margin-left: 80px;
+    height: 100px !important;
+
+}
+  
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   padding-bottom: 20px;
+   margin-top: 50px;
+}
+
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    font-family: orbitron;
+    font-weight: 455;
+
+}
+.list li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 25px;
+}
+
+
+.list li:hover::after{
+    content: "";
+    display: block;
+    background-color: #0f4f80;
+    height: 4px;
+    width: 62px;
+    border-radius: 5px;
+   font-weight: bolder;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 22px;
+}
+.search-icon {
+    padding: 11px 21px;
+}
+
+.nav-button{
+    background: transparent;
+    padding: 5px 40px;
+    border: 4px solid #0f4f80;
+    border-radius: 15px;
+    font-size: 27px;
+    font-family: sans-serif;
+}
+
+
+
+.hero-container {
+    position: relative;
+}
+
+
+ 
+.square {
+    position: absolute;
+    top: 332px ;
+    left: 210px;
+    z-index: -1;
+}
+
+.star {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+
+.globe {
+    position: absolute;
+    left: 750px;
+}
+
+.hero-container-right {
+    position: absolute;
+    left: 600px;
+    right: 200px;
+    top: 150px;
+    bottom: 100px;
+    width: 57%;
+}
+
+.hero-heading {
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.hero-description {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 80px;
+    padding-bottom: 50px;
+
+}
+
+.button-email{
+    font-size: 18px;
+    border: 3px solid #0f4f80;
+    border-radius: 10px;
+    padding: 3px 25px;
+    background-color: #ffffff;
+    font-family: 'Orbitron';
+    font-weight: 600;
+    margin-left:350px;
+}
+
+.button-join {
+    font-size: 18px;
+    border: 3px solid #0f4f80;
+    border-radius: 10px;
+    padding: 3px 20px;
+    background-color: #ffffff;
+    font-family: 'Orbitron';
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.button-join:hover {
+    background-color: #0f4f80;
+    color: #ffffff;
+}
+
+.button-email:hover {
+    background-color: #0f4f80;
+    color: #ffffff;
+}
+
+.contact-heading {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;;
+    width: 40px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 400px;
+}
+.icons img{
+    padding-left: 20px;
+}
